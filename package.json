@@ -1,0 +1,35 @@
+{
+  "type": "module",
+  "name": "social-server",
+  "version": "1.0.0",
+  "description": "node.js http web server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinovative/social-server.git"
+  },
+  "keywords": [
+    "node",
+    "rest",
+    "server",
+    "http",
+    "webdev"
+  ],
+  "author": "jin park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinovative/social-server/issues"
+  },
+  "homepage": "https://github.com/jinovative/social-server#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.2"
+  }
+}
